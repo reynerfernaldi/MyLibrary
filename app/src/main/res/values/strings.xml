@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyLibrary</string>
+    <string name="books_name">Judul Buku</string>
+    <string name="detail">Detail</string>
+    <string name="deskripsi_buku">Menceritakan tentang cerita persahabatan antara Lail dan Maryam. Ketika kedua anak manusia ini dipertemukan oleh kesempatan dan keadaan, maka mereka pun harus siap untuk menanti perpisahan yang akan datang kapan saja Novel HUJAN berkisah tentang persahabatan, tentang cinta, tentang perpisahan, tentang melupakan, dan tentang hujan.</string>
+    <string name="reyner_fernaldi">Reyner Fernaldi</string>
+    <string name="reynerfernaldi">reynerfernaldi</string>
+    <string name="favorites">Favorites</string>
+    <string name="book_rents">Book Rents</string>
+    <string name="reynerfernaldi_gmail_com">reynerfernaldi@gmail.com</string>
+    <string name="github_com_reynerfernaldi">github.com/reynerfernaldi</string>
+    <string name="linkedin_com_in_reyner_fernaldi">linkedin.com/in/reyner-fernaldi</string>
+    <string name="jumlah_halaman">Jumlah Halaman</string>
+</resources>

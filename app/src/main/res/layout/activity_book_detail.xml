@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/hujan" />
+
+        <TextView
+            style="@style/BookText"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Deskripsi" />
+
+        <TextView
+            style="@style/BookText"
+            android:text="@string/deskripsi_buku"/>
+
+        <TextView
+            style="@style/BookText"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Detail"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="@string/jumlah_halaman"/>
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="320"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="Penerbit"/>
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="Gramedia Pustaka Utama"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="Tanggal Terbit"/>
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="16 Apr 2018"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="Berat"/>
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="0.4 kg"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="ISBN"/>
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="9786020324784"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="Lebar"/>
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="14.0 cm"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="Bahasa"/>
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="Indonesia"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="Panjang"/>
+                <TextView
+                    style="@style/BookSpec"
+                    android:text="21.0cm"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
